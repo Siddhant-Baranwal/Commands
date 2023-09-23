@@ -1,1 +1,28 @@
-Command 1
+git clone <--link-->
+git status
+git add <--file name-->
+git add .
+git commit -m "Some message"
+git push origin main
+// To send any folder to git:
+    git init
+    git remote add origin <--link-->
+    //
+git branch 
+git branch -M sid //To rename branch
+git checkout -b feature1
+git checkout main
+git branch -d feature1
+git diff branch2
+git merge branch2
+git pull origin main
+//Undoing changes:
+    staged changes:
+        git reset <--file name-->
+        git reset
+    Last commited change :
+        git reset HEAD~1    
+    Many commited changes :
+        git log
+        git reset <-Hash of commit->
+        git reset --hard <-Hash of commit->    
